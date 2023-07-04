@@ -1,0 +1,54 @@
+# Ignore all build directories
+Debug/
+Release/
+
+# Ignore all files with .o, .cyclo, .d, .su extension in build directories
+*.o
+*.cyclo
+*.d
+*.su
+
+# Ignore all files with .bak extension
+*.bak
+
+# Ignore all files with .swp extension
+*.swp
+
+# Ignore all files with .swo extension
+*.swo
+
+# Ignore all files with .settings and .vscode extension
+.settings/
+.vscode/
+
+# Ignore all files with .project extension
+# .project
+
+# Ignore all files with .cproject extension
+# .cproject
+
+# Ignore all files with .mxproject extension
+# *.mxproject
+
+# Ignore all files with .metadata extension
+.metadata/
+
+# Ignore all files with .log extension
+*.log
+
+# Ignore all files with .bin extension
+*.bin
+
+# Ignore all files with .elf, .map, extension
+*.elf
+*.map
+
+# eclipse specific git ignore
+# .metadata/
+# RemoteSystemsTempFiles/
+# .settings/
+# Debug/
+# *.launch
+
+# STM32 git ignore
+# *.mxproject
